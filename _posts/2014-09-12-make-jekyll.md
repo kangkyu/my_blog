@@ -2,7 +2,6 @@
 layout: post
 title:  "Make Jekyll"
 ---
-
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
