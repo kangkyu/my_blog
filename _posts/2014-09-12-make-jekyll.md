@@ -2,17 +2,45 @@
 layout: post
 title:  "Make Jekyll"
 ---
-Jekyll also offers powerful support for code snippets:
+- [How to setup Jekyll Blog Hosted on GitHub Project Pages](http://openjerseycity.org/blog/technical/2014/06/18/Jekyll-On-GitHub-Pages/)
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+ruby version was 2.0.0-p481
+add Gemfile `gem 'github-pages'`
+
+{% highlight bash %}
+~ $ bundle install
+~ $ jekyll new my_blog
+~ $ cd my_blog
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+add a new repository on Github called `my_blog`
+
+{% highlight bash %}
+~/my_blog $ git init
+~/my_blog $ git checkout -b gh-pages
+{% endhighlight %}
+
+edit `_config.yml` with url and baseurl 
+
+{% highlight yaml %}
+baseurl: "/my_blog"
+url: "http://kangkyu.com"
+{% endhighlight %}
+
+push it to Github and I checked url `http://kangkyu.com/my_blog`
+
+{% highlight bash %}
+~/my_blog $ git add .
+~/my_blog $ git commit -m "a comment"
+~/my_blog $ git push origin gh-pages
+{% endhighlight %}
+
+add files under `_posts` directory and edit while checking preview as needed.
+
+- [Highlighting Code Snippets](http://jekyllrb.com/docs/posts/#highlighting-code-snippets)
+- [Front Matter](http://jekyllrb.com/docs/frontmatter/)
+- [Jekyll Documentation](http://jekyllrb.com/)
+- [Jekyll on Github Pages](https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll)
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
