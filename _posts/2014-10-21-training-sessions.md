@@ -3,8 +3,9 @@ layout: post
 title:  "Training Sessions"
 ---
 
-Training Sessions ( * time-sensitive )
+# Training Sessions ( * time-sensitive )
 
+{% highlight %}
 * egx SaaS
   Wednesday Group
   Thursday Group
@@ -22,4 +23,4 @@ Training Sessions ( * time-sensitive )
   Treehouse 25
   Codeschool  30
 ? Egghead.io  15
-
+{% endhighlight %}
