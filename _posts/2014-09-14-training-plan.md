@@ -15,7 +15,7 @@ title:  "Training Plan"
 + week 7 Sep 27
 + week 8 Oct 4
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 def say_goodnight(name)
   result = "Good night, " + name
   return result
