@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Training Sessions"
+---
+
 Training Sessions ( * time-sensitive )
 
 * egx SaaS
@@ -17,4 +22,4 @@ Training Sessions ( * time-sensitive )
   Treehouse 25
   Codeschool  30
 ? Egghead.io  15
-  
+
