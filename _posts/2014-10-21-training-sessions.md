@@ -6,21 +6,23 @@ title:  "Training Sessions"
 # Training Sessions ( * time-sensitive )
 
 {% highlight %}
-* egx SaaS
-  Wednesday Group
-  Thursday Group
-  Agile Web Development With Rails 4
-* BaseRails
-  Tealeaf
   PragStudio
     Ruby Studio
     Rails Studio
+* Tealeaf
+* BaseRails
+  Codeschool  $30
+  Codecademy
+  Treehouse  $25
+  Agile Web Development With Rails 4
+
+* edx SaaS (https://courses.edx.org/dashboard)
+  Wednesday Group
+  Thursday Group
   Hartl Tutorial (railstutorial.org/book)
   RailsCasts
   Rubymonk
+  Koan
   rubylearning.com
-  Codecademy
-  Treehouse 25
-  Codeschool  30
-? Egghead.io  15
+? Egghead.io  $15
 {% endhighlight %}
