@@ -2,9 +2,11 @@
 title: my_blog
 email: lee@kangkyu.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is future site of my blog. Currently I am trying different ways
+  of how to use Jekyll. Thank you, I'll see you.
+  # Write an awesome description for your new site here. You can edit this
+  # line in _config.yml. It will appear in your document head meta (for
+  # Google search results) and in your feed.xml site description.
 baseurl: "/my_blog" # the subpath of your site, e.g. /blog/
 url: "http://kangkyu.com" # the base hostname & protocol for your site
 twitter_username: 'kangkyu'
